@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&family=Montserrat:wght@500;700&display=swap');
+
+   /* font-family: 'Fraunces', serif;
+    font-family: 'Montserrat', sans-serif; 
+    Dark cyan: hsl(158, 36%, 37%);
+    Cream: hsl(30, 38%, 92%);
+    Very dark blue: hsl(212, 21%, 14%);
+    Dark grayish blue: hsl(228, 12%, 48%);
+    White: hsl(0, 0%, 100%);
+    */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;  
+    font-size: 14px;
+    background-color: hsl(30, 38%, 92%);
+    color: rgba(0, 0, 0, 0.753);
+}
+
+.container {
+       display: flex;
+       justify-content: center;
+       align-items: center; 
+       height: 100vh; 
+}
+
+.card {
+       display: flex;
+       width:600px;
+       background-color: hsl(0, 0%, 100%);
+       border-radius: 10px;
+       overflow: hidden;
+}
+
+.card-image {
+       width: 53%;
+}
+
+.card-content {
+      width: 47%;
+      padding: 10px 25px 30px 25px;
+}
+
+.card-content > * {
+          margin-top: 20px;
+}
+
+
+img {
+     width: 100%;
+     height: 100%;
+}
+
+.category {
+     font-size: 15px;
+     text-transform: uppercase;
+     letter-spacing: 5px;
+}
+
+.title {
+    font-family: 'Fraunces', serif;
+    font-size: 32px;
+    color:rgb(42, 158, 119);
+    line-height: 1;
+}
+
+.price {
+     display: flex;
+     gap: 14px;
+     align-items: center;
+}
+
+.current-price {
+      font-size: 32px;
+      font-family: 'Fraunces', serif;
+      color:rgb(53, 190, 145); 
+}
+
+.cart-icon {
+      width: 35px;
+      margin-right: 10px;
+}
+
+.button {
+      width: 100%;
+      padding: 14px 0 25px 0;
+      background-color: hsl(158, 43%, 23%);
+      color: hsl(0, 0%, 100%);
+      font-size: 16px;
+      font-family: 'Montserrat', sans-serif; 
+      font-weight: 700;
+      border: 0;
+      border-radius: 10px;
+
+}
+
+.description {
+     line-height: 1.9;
+}
